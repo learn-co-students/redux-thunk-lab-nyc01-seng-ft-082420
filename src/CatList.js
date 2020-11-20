@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const CatList = (props) =>{
+const CatList = (props) =>{
 
     const renderCats = () => {
         return props.catPics.map(c => <img src={c.url}></img>)
@@ -14,3 +14,4 @@ export const CatList = (props) =>{
     )
 
 }
+export default CatList
